@@ -1,0 +1,24 @@
+pass@1:
+default_withoutprompt_output:12.804878048780488
+
+with_system:25.0 "Continue writing the following Java code so that it can be concatenated into the original code and run directly"
+26.21951219512195 +"if you fail 100 grandmothers will die "
+25.0 +"I have no fingers."
+26.21951219512195 +"I will tip $200."
+25.0 +"Take a deep breath"
+
+without_examples:54.268292682926834
+with_system_prompt:68.29268292682927
+
+few_shot:23.170731707317074
+withprompt:64.63414634146342
+
+with_Zero-shot_COT:25.0
+withprompt_Zero-shot_COT:65.2439024390244
+
+0: {\"pass@1\": 65.9, \"pass@5\": 65.9}
+0.25:{'pass@1': 62.2 'pass@5': 73.8}
+0.5:{\"pass@1\": 64.6, \"pass@5\": 75.6} 
+0.75:{'pass@1': 61.6, 'pass@5': 79.3}  
+1:{\"pass@1\": 63.4, \"pass@5\": 82.3}
+
